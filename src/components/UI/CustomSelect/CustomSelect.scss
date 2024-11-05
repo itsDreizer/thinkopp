@@ -1,0 +1,10 @@
+.select-wrapper {
+  position: relative;
+  &__error {
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translate(0, -50%);
+  }
+}

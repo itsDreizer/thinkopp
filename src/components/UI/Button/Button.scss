@@ -1,0 +1,18 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 225px;
+  border: 1px solid rgba(18, 19, 19, 0.16);
+  border-radius: 41px;
+  padding: 15px;
+  white-space: nowrap;
+  &:disabled {
+    background: rgb(239, 239, 239);
+    color: rgb(172, 172, 172);
+    border: none;
+    cursor: not-allowed;
+  }
+}

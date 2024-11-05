@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &__prev {
+    line-height: 1;
+    transform: rotate(180deg);
+  }
+
+  &__button {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.5);
+    &--active {
+      color: black;
+      border: 0.5px solid rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &__ellipsis {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  &__next {
+    line-height: 1;
+  }
+}
